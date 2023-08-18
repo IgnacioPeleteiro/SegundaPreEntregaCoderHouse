@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .service {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: calc(50% - 2rem);
+  }
+  
+  .service img {
+    max-width: 80%;
+  }
+  
+  @media (max-width: 768px) {
+    .service {
+      width: 100%;
+    }
+  }
+  
